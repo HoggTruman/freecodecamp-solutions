@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: coral;
+}
+
+#calculator {
+  display: block;
+  background-color: grey;
+  width: 25rem;
+  margin: 8rem auto;
+  padding: 0.25rem;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+}
+
+#display {
+  background-color: black;
+  color: white;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  direction: ltr;
+  overflow: scroll;
+  text-align: right;
+}
+
+#button-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 0.5rem;
+}
+
+button {
+  height: 2rem;
+  margin: 0.05rem;
+  font-size: 1rem;
+}
+
+#clear {
+  grid-column: 1 / 4;
+}
+
+#zero {
+  grid-column: 1 / 3
+}

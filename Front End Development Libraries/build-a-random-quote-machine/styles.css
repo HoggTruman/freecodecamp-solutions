@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey1: #b0bbcf;
+  --grey2: #5b667a;
+  --grey3: #291e19;
+  --grey4: #dfe6f5;
+}
+
+body {
+  background-color: var(--grey1);
+}
+
+#quote-box {
+  position: absolute;
+  top: calc(50% - 5rem);
+  left: calc(50% - 20rem);
+
+  width: 40rem;
+  height: 10rem;
+  padding: 1rem;
+
+  background-color: var(--grey2);
+  border-radius: 0.5rem;
+}
+
+#text {
+  text-align: center;
+  margin: 0.5rem auto;
+}
+
+#author {
+  text-align: center;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+#new-quote {
+  display: block;
+  margin: 0.5rem auto;
+}
+
+#tweet-quote {
+  display: block;
+  text-align: center;
+  margin: 0.5rem auto;
+}

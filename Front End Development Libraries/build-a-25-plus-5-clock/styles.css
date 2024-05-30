@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: arial;
+}
+
+body {
+  background-color: coral;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem auto
+}
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+#durationSettersContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.durationSetter {
+  background-color: lightblue;
+  margin: 0 1rem;
+  border: 0.5rem solid black;
+  border-radius: 1rem;
+  padding: 0.25rem;
+  width: 10rem;
+}
+
+.durationSetterButtons {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.25rem 0;
+  border-radius: 0.25rem
+}
+
+.inc-dec-button {
+  font-size: 1.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+#timer {
+  font-family: arial;
+  margin: 1rem auto;
+  padding: 0.5rem 0.5rem;
+  width: 13rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+  border: 0.5rem solid black;
+}
+
+#time-left {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#play-reset-buttons {
+  width: max-content;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start_stop, #reset {
+  margin: 1rem;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+
+}
