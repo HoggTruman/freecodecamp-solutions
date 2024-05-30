@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: red;
+  height: 10%;
+  width: 100%;
+}
+
+main {
+  top: 10%;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}

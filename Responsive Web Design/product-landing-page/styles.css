@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgrey;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: #fcbc0a;
+  color: #0a0436;
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  margin-left: 2%;
+}
+
+main {
+  width: 80%;
+  height: 100%;
+  margin: 1% auto;
+  padding-top: 7%;
+  padding: 7% 1%;
+  background-color: #e5e4ed;
+}
+
+section {
+  border-top: 5px solid grey;
+  margin: 2% 0
+}
+
+nav {
+  width: 40%;
+  height: 75%;
+  margin-right: 4%;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-block: 0;
+}
+
+nav > ul > li {
+  color: #0a0436;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #0a0436;
+  color: #fcbc0a;
+  cursor: pointer;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+  padding: auto;
+}
+
+h1 {
+  font-size: 3vh;
+}
+
+input {
+  display: inline-block;
+  margin-right: 1%;
+}
+
+#email {
+  width: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}

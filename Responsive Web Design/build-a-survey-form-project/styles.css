@@ -1,0 +1,34 @@
+body {
+  font-family: Sans-serif;
+  background-color: #f0f3fa;
+  width: 550px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+label, input {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+}
+
+input[type="submit"] {
+  margin: 5px auto;
+}
+
+textarea {
+  margin: 5px auto;
+}
+
+.inline{
+  display: inline;
+  width: auto;
+}
+
+.prompt{
+  margin-top: 1em;
+  font-weight: bold;
+}

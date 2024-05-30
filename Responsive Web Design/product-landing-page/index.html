@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Landing Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://www.w3schools.com/html/smiley.gif">
+      <h1>PRODUCT PAGE</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#video-section">Video</a></li>
+          <li><a class="nav-link" href="#form-section">Sign up</a></li>
+          <li><a class="nav-link"  href="#info-section">Info</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="video-section">
+        <h2>A video on the product</h2>
+        <iframe
+        id="video"
+        src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+        title="Roman Carnival Overture Op. 9 for Five Trombones"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+        </iframe>
+      </section>
+
+      <section id="form-section">
+        <h2>Sign up for our newsletter!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <input id="email" type="email" placeholder="e.g. JohnSmith@CrazyMail.com" name="email">
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      </section>
+
+      <section id="info-section">
+        <h2>Info</h2>
+        <p> Some info on the product </p>
+      </section>
+    </main>
+  </body>
+</html>

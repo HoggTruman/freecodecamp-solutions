@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patient Satisfaction Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Patient Satisfaction Survey</h1>
+    <p id="description">Please tell us about your experience today to help us improve our service</p>
+
+    <form id="survey-form">
+      <label class="prompt" id="name-label" for="name">
+        Full name:
+        <input id="name" type="text" placeholder="Enter your name..." required/>
+      </label>
+
+      <label class="prompt" id="email-label" for="email">
+        Email Address:
+        <input id="email" type="email" placeholder="Enter your email address..." required/>
+      </label>
+
+      <label class="prompt" id="number-label" for="number">
+        How would you rate your experience today from 1 to 10?
+        <input id="number" type="number" min="1" max="10" placeholder="Choose a number from 1 to 10">
+      </label>
+
+      <label class="prompt" id="select-label" for="dropdown"> Who was your appointment with today? </label>
+      <select name="Doctor" id="dropdown">
+        <option value="" disabled selected>Select your doctor</option>
+        <option value="Cena">Dr J. Cena</option>
+        <option value="Johnson">Dr D. Johnson</option>
+        <option value="Hogan">Dr H. Hogan</option>
+      </select>
+
+      <p class="prompt"> Would you recommend this doctor to a friend?</p>
+      <label id="yes-label" for="yes-rec">
+        <input class="inline" id="yes-rec" type="radio" name="recommended" value="Yes">
+        Yes
+      </label>
+      <label id="no-label" for="no-rec">
+        <input class="inline" id="no-rec" type="radio" name="recommended" value="No">
+        No
+      </label>
+      <label id="maybe-label" for="maybe-rec">
+        <input class="inline" id="maybe-rec" type="radio" name="recommended" value="Maybe">
+        Maybe
+      </label>
+      <label id="not-say-label" for="not-say-rec">
+        <input class="inline" id="not-say-rec" type="radio" name="recommended" value="Rather Not Say">
+        Rather not say
+      </label>
+
+      <p class="prompt"> Which nurses were present during your appointment? </p>
+      <label>
+        <input class="inline" name="nurses" value="Nightingale" type="checkbox">
+        Florence Nightingale
+      </label>
+      <label>
+        <input class="inline" name="nurses" value="Whitman" type="checkbox">
+        Walt Whitman
+      </label>
+      <label>
+        <input class="inline" name="nurses" value="Breckenridge" type="checkbox">
+        Mary Breckenridge
+      </label>
+
+      <label class="prompt" id="comments-label" for="comments"> Please enter any additional comments you have:
+      </label>
+      <textarea id="comments" rows="5" cols="50" placeholder="Enter your comments here..." max-width="500px"></textarea>
+
+      <input id="submit" type="submit" value="Submit">
+
+    </form>
+
+  </body>
+</html>
