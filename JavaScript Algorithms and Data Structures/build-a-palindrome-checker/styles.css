@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width:100%;
+  height: 100%;
+  background-color: #3e6cc2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 60%;
+  height: 35%;
+  background-color: lightgrey;
+  margin: auto;
+  border: 0.5rem solid #383838;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: Helvetica ;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1% 0 0 0;
+  margin-top: 1%;
+}
+
+p {
+  margin: 0;
+}
+
+#text-input {
+  display: block;
+  width: 80%;
+  margin: 10% 0 1% 0 ;
+}
+
+#check-btn {
+  display: block;
+  width: 8rem;
+  margin: 2% auto;
+}
+
+#result {
+  padding: 1% 0;
+}
+
+.is-palindrome {
+  color: green;
+}
+
+.is-not-palindrome {
+  color: red;
+}

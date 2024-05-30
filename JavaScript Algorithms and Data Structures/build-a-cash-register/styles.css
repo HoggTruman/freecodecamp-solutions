@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey1: #b0bbcf;
+  --grey2: #5b667a;
+  --grey3: #291e19;
+  --grey4: #dfe6f5;
+}
+
+body {
+  background-color: var(--grey1);
+}
+
+div {
+  display: block;
+  background-color: var(--grey2);
+  width: 30rem;
+  border-radius: 5px;
+  border: 0.5rem solid var(--grey3);
+}
+
+h1 {
+  font-family: "Times New Roman" Arial;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  color: var(--grey3);
+  text-shadow: 2px 2px 3px black;
+  margin: 2rem auto;
+}
+
+p {
+  color: var(--grey4);
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#input-div {
+  display: block;
+  height: 20rem;
+  border-radius: 5px;
+  border: 0.5rem solid var(--grey3);
+  margin: 8rem auto 2rem auto;
+}
+
+#prompt {
+  color: var(--grey4);
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+#cash {
+  display: block;
+  width: 60%;
+  height: 10%;
+  border: 2px solid var(--grey3);
+  margin: 3rem auto 1.5rem auto;
+}
+
+
+#purchase-btn {
+  display: block;
+  width: 50%;
+  height: 12%;
+  margin: 1rem auto;
+  background-color: #bac1cf;
+  border: 2px solid var(--grey3);
+}
+
+#purchase-btn:hover {
+  cursor: pointer;
+  background-color: #818a9c;
+}
+
+#change-due {
+  display: flex;
+  margin: 1rem auto;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--grey4);
+}
